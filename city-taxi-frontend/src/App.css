@@ -1,0 +1,510 @@
+/* Main page style */
+
+.dashbody{
+  background-image: url(Assets/Taxi.jpg);
+  height: 95vh;
+}
+.modals{
+  background-image: url(Assets/Tikmark.png);
+  margin-left: 150px;
+  margin-top: 20px;
+  width:150px ;
+  height: 150px;
+  background-size: cover;
+}
+
+.modalss{
+  background-image: url(Assets/Tikmark.png);
+  margin-left: 100px;
+  margin-top: 20px;
+  width:150px ;
+  height: 150px;
+  background-size: cover;
+}
+
+/* Login page styles */
+.Login {
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+    margin-left: 570px;
+}
+
+.Login h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.Login input[type="email"],
+.Login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+}
+
+.Login input[type="button"] {
+    margin-left: 90px;
+    width: 50%;
+    padding: 10px;
+    background-color: #55acee;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+/* Registration form styles */
+.Registerform{
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-left: 570px;
+    
+}
+
+.Registerform h5 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.Registerform input[type="email"],
+.Registerform input[type="password"],
+.Registerform input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+}
+
+.Registerform input[type="button"] {
+    margin-left: 90px;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Main */
+.t-head{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* Driver Registration form styles */
+.DRegisterform{
+  width: 700px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-left: 400px;
+  
+}
+
+.DRegisterform h5 {
+text-align: center;
+color: #333;
+margin-bottom: 30px;
+}
+
+.DRegisterform input[type="email"],
+.DRegisterform input[type="password"],
+.DRegisterform input[type="text"],
+.DRegisterform input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px;
+}
+
+.DRegisterform input[type="button"] {
+  margin-left: 200px;
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bar.jsx page styles */
+
+*{
+  margin: 0;
+  padding: 0px;
+  text-decoration: none;
+  margin-left: 00px;
+   
+}
+.container{
+  
+  width: 100%;
+  
+}
+
+
+
+.navbar{
+  width: 100%;
+  display: inline-flex;
+  background-color: cornflowerblue;
+}
+
+.dashbar{
+  padding-left: 100px;
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+.dashlink{
+  padding-left: 50px;
+  color: azure;
+  text-decoration: none;
+}
+
+.head{
+  padding-left: 50px;
+}
+.main{
+  display:flex;
+
+}
+.content {
+  padding: 1rem;
+ }
+
+.sidebar{
+  background: #05095a53;
+  color: #fff;
+  height: 88vh;
+  width: 230px;
+  transition: all 0.2s;
+}
+
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  padding-left: 30px;
+}
+
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: rgb(30, 96, 120);
+  color: #000;
+}
+
+.icon, .link_text{
+  font-size: 20px;
+}
+
+
+
+/* End Bar.jsx page styles */
+
+
+.error-message{
+  color: red;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 6px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 6px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=email], select {
+  width: 100%;
+  padding: 6px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 6px 15px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=time], select {
+  width: 100%;
+  padding: 6px 15px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=button] {
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+ 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+.buttoncls{
+  position: fixed;
+}
+ 
+
+
+.pageform{
+  
+  margin-top: 30px;
+  padding-left: 35px;
+  width: 100%;
+  height: 450px;
+  
+}
+
+.footer{
+  background-color: darkorange;
+  margin-left: 00px;
+  margin-right: px;
+  text-align: center;
+  margin-bottom: 0%;
+  height: 30px;
+}
+
+/* Admin Dashboard Code */
+.button-box{
+  box-sizing: border-box;
+  width: 250px;
+  height: 130px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #f6f8f6;
+  padding-top: 35px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  
+  
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+/* Slide bar code */
+.button-sld{
+  box-sizing: border-box;
+  width: 100%;
+  height: 56px;
+  text-align: center;
+  border-radius: 0px;
+  background-color: #a3c7a3;
+  
+  
+}
+
+.link-sld{
+
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  
+}
+
+/* Form Page Header */
+.formheader{
+  width: 100%;
+  height: 35px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-decoration: none;
+
+}
+
+.clk{
+  
+  border-bottom: 1px solid black;
+  display: flex;
+  
+  
+}
+
+.searchbar{
+  padding-left: 15px;
+  padding-top: 10px;
+
+}
+
+.button-add{
+  padding: 15px 10px 5px 5px;
+  justify-content: flex-end;
+  position:absolute;
+  right: 2%;
+   
+}
+
+.button-return{
+  padding: 15px 0px 5px 10px;
+}
+
+
+
+.pagetable{
+  margin-top: 17px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+  height: 75vh;
+ 
+}
+table{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 98%;
+  
+}
+
+.buttonpd{
+  padding: 2px;
+}
+
+.pagination{
+  right: 1%;
+  position: absolute;
+  
+}
+
+
+/* Reservation form  */
+.R-pagetable{
+  margin-top: 50px;
+  width: 50%;
+  border: 1px solid black;
+  background-color: white;
+  margin-left: 200px;
+ 
+}
+
+.Reserveform{
+  width: 400px;
+  padding: 30px;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-left: 100px;
+  
+}
+
+.Reserveform input[type="button"] {
+  margin-left: 75px;
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pageform input[type="button"] {
+  margin-left: 150px;
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.R-box{
+  margin-left: 25px;
+  height: 350px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+}
